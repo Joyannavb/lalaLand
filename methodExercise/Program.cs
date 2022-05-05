@@ -26,16 +26,20 @@ namespace methodExercise
             var item = Console.ReadLine();
             Console.WriteLine("5. What is the worst song you've ever heard?");
             var song = Console.ReadLine();
+           
 
             Console.WriteLine($"Thanks for answering all those questions, {name}! It was great to get to know you!"); 
 
 
             Console.WriteLine(" While you were answering those, I was hard at work creating our story. Are you ready to hear it? I hope so! Here we go! ");
             Console.WriteLine("BREAKING NEWS!!!");
-            Console.WriteLine($"After {age} years, royal family member {name} has been found! The community was beginning to lose hope of {name}'s survival," +
-                $"yet one soldier refused to give up. This soldier began playing {song} on loud speakers, knowing that if {name} heard it he would scream in horror." +
-                $"That is when {name} was found wandering in the woods. At ths time, the royal family is refusing to make a statement. " +
-                $"However, inside sources report that {name} was raised by a {animal} and survived soley on {food}. " +
+            Console.WriteLine($"After {age} years, royal family member {name} has been found! \r\n " +
+                $"As the community began to lose hope of {name}'s survival," +
+                $"one soldier refused to give up. \r\n " +
+                $"This soldier began playing {song} on loud speakers, hoping that if {name} heard it they would scream in horror. \r\n" +
+                $"This plan proved successful as {name} was located screaming in the woods. \r\n " +
+                $"At ths time, the royal family is refusing to make a statement. " +
+                $"However, inside sources report that {name} was raised by {animal} and survived soley on {food}. \r\n " +
                 $"Now that {name} is home, they are being introduced to luxary items, starting with {item}'s.");
          
 
